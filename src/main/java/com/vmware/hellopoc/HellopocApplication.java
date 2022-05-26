@@ -16,7 +16,7 @@ public class HellopocApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HellopocApplication.class, args);
-		System.out.println("this is gitbucket + jenkins + PaaS CICD poc 999879！");
+		System.out.println("this is gitbucket + jenkins + PaaS CICD poc 999879999！");
 	}
 
 	@Autowired
