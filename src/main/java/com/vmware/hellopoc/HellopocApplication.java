@@ -25,7 +25,7 @@ public class HellopocApplication {
 	@GetMapping("/")
 	public String index() {
 		StringBuilder sb = new StringBuilder("<html><body>");
-		sb.append("Hello there dear developer Patrick hook9997!！, here are the beans you were looking for: </br>");
+		sb.append("Hello there dear developer Patrick hook99978!！, here are the beans you were looking for: </br>");
 //method that returns all the bean names in the context of the application
 		Arrays.stream(ctx.getBeanDefinitionNames()).sorted()
 				.forEach(
